@@ -8,7 +8,7 @@ const btnUp = {
     // добавим к кнопке класс btn-up_hide
     this.el.classList.add("btn-up_hide");
   },
-  asddEventListener() {
+  addEventListener() {
     // при прокрутке содержимого страницы
     window.addEventListener("scroll", () => {
       // определяем величину прокрутки
